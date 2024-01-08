@@ -42,7 +42,12 @@ img {
  padding: 0;
 }
 
-@media only screen and (max-width:1040px) {
+
+@media (min-width:440px) and (max-width:1040px) {
+    body {
+        background-color: #fff;
+    }
+    
     .item {
         flex-basis: 100%;
         margin-bottom: 50px;
